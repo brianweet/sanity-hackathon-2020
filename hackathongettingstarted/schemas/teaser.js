@@ -1,7 +1,7 @@
 export default {
   name: "teaser",
   title: "Teaser block",
-  type: "object",
+  type: "document",
   fields: [
     {
       name: "title",

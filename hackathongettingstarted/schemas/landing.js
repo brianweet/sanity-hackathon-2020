@@ -21,6 +21,17 @@ export default {
       name: "teaser",
       title: "Teaser",
       type: "teaser"
+    },
+    {
+      name: "description",
+      title: "Description",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "teaser" }]
+        }
+      ]
     }
   ]
 };
