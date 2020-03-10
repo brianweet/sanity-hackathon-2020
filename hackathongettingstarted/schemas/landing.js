@@ -18,6 +18,14 @@ export default {
       }
     },
     {
+      name: "tags",
+      title: "Tags",
+      type: "string",
+      options: {
+        tags: { min: 0, max: 10 }
+      }
+    },
+    {
       name: "rating",
       title: "Rating",
       type: "number",
