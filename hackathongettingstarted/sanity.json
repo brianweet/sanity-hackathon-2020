@@ -30,6 +30,10 @@
     {
       "implements": "part:@sanity/form-builder/input-resolver",
       "path": "./parts/inputResolver.js"
+    },
+    {
+      "implements": "part:@sanity/desk-tool/structure",
+      "path": "./structure/config.js"
     }
   ]
 }
